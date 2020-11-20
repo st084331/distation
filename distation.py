@@ -12,8 +12,6 @@ with open('Координаты.csv') as csvfile:
         y.append(int(row['Y']))
         z.append(int(row['Z']))
 
-print(2**2)
-
 for point in range(100):
     neighbor = [0, 0, 0, 0]
     n_range = float('inf')
